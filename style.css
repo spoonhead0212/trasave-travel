@@ -37,6 +37,10 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.main {
+    width: 100vw;
+}
+
 /* header style */
 /* menu style */
 .navigation {
@@ -185,7 +189,7 @@ body {
 }
 
 .sec-2_div p {
-    margin-block: 1rem;
+    margin-block: .5rem;
     font-size: var(--normalFontSize);
 }
 
