@@ -13,7 +13,7 @@
     --normalFontLine: 32.74px;
     --menuFontSize: 18px;
     --normalFontSize: 20px;
-    --headerFontSize: 54px;
+    --headerFontSize: 34px;
     --headerFontWeight: 900;
     --headerFontWeight2: 600;
     --headerWeight700: 700;
@@ -170,6 +170,7 @@ body {
 
 .sec_h2 {
     font-size: var(--headerFontSize);
+    margin-block: .7rem;
     font-weight: var(--headerFontWeight);
 }
 
@@ -205,10 +206,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.sec3_left-div {
-    text-align: center;
-}
-
 .sec3_left-div p{
     font-size: var(--normalFontSize);
 }
@@ -224,8 +221,8 @@ body {
     display: block;
 }
 
-:is(.sec3_left-div, .cashback_left-div) h3 {
-   font-size: 36px;
+:is(.sec3_left-div, .cashback_left-div) h2 {
+   font-size: var(--headerFontSize);
    font-weight: var(--headerWeight700);
    line-height: var(--h3LineHeiht);
 }
@@ -333,7 +330,6 @@ body {
 
     .cashback {
         padding: unset;
-        /* padding-left: 3.25%; */
         gap: 4rem;
     }
 
@@ -343,6 +339,7 @@ body {
     }
 
     .cashback_left-div {
+        text-align: center;
         width: 86%;
     }
 }
@@ -364,11 +361,6 @@ body {
         /* width: 95%; */
         font-size: var(--mobileHeaderFont);
         line-height: var(--mobileParaLine);
-    }
-
-    .sec_h2 {
-        font-size: calc(var(--headerFontSize) - 20px);
-        line-height: var(--mobileFontLine);
     }
 
     .sec_p {
