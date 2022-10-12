@@ -169,10 +169,14 @@ body {
 }
 
 .sec_h2 {
+    margin-block: 1rem;
+}
+
+ /* {
     font-size: var(--headerFontSize);
     margin-block: .7rem;
-    font-weight: var(--headerFontWeight);
-}
+    font-weight: var.sec_h2(--headerFontWeight);
+} */
 
 .sec_p {
     font-size: var(--normalFontSize);
@@ -221,7 +225,7 @@ body {
     display: block;
 }
 
-:is(.sec3_left-div, .cashback_left-div) h2 {
+:is(.sec3_left-div, .cashback_left-div, .sec) h2 {
    font-size: var(--headerFontSize);
    font-weight: var(--headerWeight700);
    line-height: var(--h3LineHeiht);
